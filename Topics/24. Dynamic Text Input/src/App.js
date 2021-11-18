@@ -44,10 +44,10 @@ class App extends Component {
         <button onClick={this.swithNameHandler.bind(this, 'Tushar')}>Switch Name</button>
         <br></br><br></br>
 
-        <Person 
+        {/* <Person 
         name = {this.state.person[0].name} 
         age = {this.state.person[0].age}/>
-        <br></br>
+        <br></br> */}
 
         <Person  
         name = {this.state.person[1].name}
@@ -55,10 +55,10 @@ class App extends Component {
         age = {this.state.person[1].age}
         changed = {this.nameChangdHandler}/>
         <br></br>
-
+{/* 
         <Person 
         name = {this.state.person[2].name} 
-        age = {this.state.person[2].age}/>
+        age = {this.state.person[2].age}/> */}
 
         {/* children */}
         <Person>Hello</Person>
